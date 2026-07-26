@@ -1,0 +1,42 @@
+# ===== Python / Django (backend/) =====
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+ENV/
+.venv/
+*.egg-info/
+db.sqlite3
+db.sqlite3-journal
+media/
+staticfiles/
+.env
+*.log
+instance/
+
+# ===== Node / Expo (frontend/) =====
+node_modules/
+.expo/
+.expo-shared/
+dist/
+web-build/
+npm-debug.*
+yarn-debug.*
+yarn-error.*
+*.jks
+*.p8
+*.p12
+*.key
+*.mobileprovision
+*.orig.*
+.metro-health-check*
+
+# macOS
+.DS_Store
+
+# Editors
+.vscode/
+.idea/

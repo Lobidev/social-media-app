@@ -46,4 +46,20 @@ export const mainLayout = StyleSheet.create({
     fontSize: 20,
     fontWeight: "bold",
   },
+  image: {
+    width: 350,
+    height: 350,
+    borderRadius: 18,
+  },
+  imageContainer: {
+    flex: 1 ,
+    alignItems: "center",
+    justifyContent: "center",
+  },
+
+  footerContainer: {
+    flex: 1 / 3,
+    alignItems: "center",
+    justifyContent: "center",
+  },
 });
